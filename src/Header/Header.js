@@ -4,7 +4,7 @@ import "./Header.css";
 
 function heading() {
   return (
-    <>
+<>
     <body>
         <div className="Main">
           <div id="left">
@@ -13,15 +13,19 @@ function heading() {
           </div>
           <div id="right">
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Home</li>
+              <li>About</li>
+              <li>Privacy Policy</li>
+              <li>Our Shop</li>
             </ul>
+            <div className="inputing">
+            <input type="text" placeholder="Search..."/>
+            </div>
           </div>
         </div>
-    </body>
-    </>
-);
-}
+      </body>
+  </>
+    );
+    }
 
 export default heading;
