@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.png";
 import "./Header.css";
+import search from "./Search icon.png";
 
 function heading() {
   return (
@@ -20,12 +21,13 @@ function heading() {
             </ul>
             <div className="inputing">
             <input type="text" placeholder="Search..."/>
+            <img src={search} alt="search_icon" />
             </div>
           </div>
         </div>
       </body>
   </>
-    );
-    }
+);
+}
 
 export default heading;

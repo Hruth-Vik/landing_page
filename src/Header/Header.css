@@ -13,15 +13,16 @@ body{
 }
 body{
     /* position: absolute; */
-    background: url('./Bg_img.png');
-    background-blend-mode: overlay;
+    background:rgba(52, 47, 47, 0.7) url('./Bg_img.png');
+    background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
+
 .Main{
     display: flex;
     padding-top: 1.5rem;
+    color: white;
     /* justify-content: center ; */
 }
 
@@ -33,16 +34,17 @@ body{
     border: none;
 }
 #left{
-    width: 40%;
+    width: 30%;
     height: 25%;
     display: flex;
     align-items: center;
     justify-content: left;
     gap:2rem;
-    margin-left: 15rem;
+    margin-left: 8rem;
+    margin-bottom: 10px;
 }
 #right{
-    width: 50%;
+    width: 70%;
     height:25%;
     display: flex;
     align-items: center;
@@ -50,10 +52,26 @@ body{
 }
 #right ul li{
     list-style: none;
+    font-weight: 500;
 }
+
 #right ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap:40px;
+    padding-right: 3rem;
+}
+
+.inputing{
+    padding: 12px;
+    display: flex;
+    gap:4px;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.inputing input{
+    border: none;
+    outline: none;
 }
