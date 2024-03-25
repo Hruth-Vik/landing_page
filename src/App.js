@@ -1,15 +1,13 @@
 
 import './App.css';
 import Header from './Header/Header.jsx';
-import body_o from './body_o/body_one.jsx';
+import Section1 from './body_o/Section1.jsx';
 
 function App() {
   return (
     <>
-    <body>
     <Header/>
-    <body_o/>
-    </body>
+    <Section1/>
     </>
   );
 }
