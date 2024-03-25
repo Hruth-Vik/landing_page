@@ -24,8 +24,20 @@ const Section1 = () => {
               <button id="X_Box_btn">X-Box</button>
             </div>
           </div>
+          <div className="box-wrapper">
+          <div className="box">
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+            <div><img src="" alt="" /></div>
+          </div>
           <div className="containers"></div>
         </div>
+          </div>
       </div>
     </>
   );
