@@ -6,10 +6,42 @@ import frame from "./Frame1.png";
 // import pic1 from "./1st pic.webp";
 import { AiFillStar } from "react-icons/ai";
 
-// function Data_entered(Name,Genre,rating,orders)
-// {
-//   return ()
-// }
+function Entereddata({Name,Company,Genre,rating,orders})
+{
+  return (
+    <div className="sub">
+            <div className="container_class">
+              <div className="upper_div">
+                <img src={frame} alt="" />
+              </div>
+              <div className="mid_div">
+                <h1 id="heading">
+                  {Name}
+                </h1>
+                <p id="one">
+                  {Company}
+                </p>
+                <p id="two">
+                  {Genre}
+                </p>
+              </div>
+              <div className="lower_div">
+                <div className="left_lower">
+                  <div className="icon_div">
+                    <AiFillStar className="icon_added"/>
+                    <p id="rating">{rating}</p>
+                  </div>
+
+                  <p id="orders">{orders} orders</p>
+                </div>
+                <div className="right_lower">
+                  <button className="btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  )
+}
 
 
 const Section1 = () => {
@@ -33,37 +65,15 @@ const Section1 = () => {
               <button id="X_Box_btn">X-Box</button>
             </div>
           </div>
-          {/* here the container is getting edited */}
-          <div className="sub">
-            <div className="container_class">
-              <div className="upper_div">
-                <img src={frame} alt="" />
-              </div>
-              <div className="mid_div">
-                <h1 id="heading">
-                  Assasins creed Mirage
-                </h1>
-                <p id="one">
-                  Ubisoft
-                </p>
-                <p id="two">
-                  Ps4,Ps5,Xbox One,Xbox Series X
-                </p>
-              </div>
-              <div className="lower_div">
-                <div className="left_lower">
-                  <div className="icon_div">
-                    <AiFillStar className="icon_added"/>
-                    <p id="rating">4.5</p>
-                  </div>
-
-                  <p id="orders">175 orders</p>
-                </div>
-                <div className="right_lower">
-                  <button className="btn">Order Now</button>
-                </div>
-              </div>
-            </div>
+          <div className="Card">
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
+          <Entereddata Name={'AssassinsCreed'} Company={'Ubisoft'} Genre={'Xbox-one'} rating={4.4} orders={120}/>
           </div>
         </div>
       </div>
