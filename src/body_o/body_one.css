@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
     background-blend-mode: color-burn;
+    background-size: cover;
 
 }
 
@@ -79,73 +80,93 @@ button{
     border: none;
 }
 
-/* .box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 50rem;
- background-color: red; 
-}
-.box-wrapper{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+/* here the container is edited */
 
-.box img{   
-    height: 15rem;
+.sub{
+    height: 60vh;
+    width: 80vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.box{
+.container_class{
+    height: 60vh;
+    width: 38vh;
+    /* background-color: rgb(63, 47, 155); */
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:1rem;   
-    padding-right: 6rem;
-    padding-left: 6rem;
-    flex-wrap: wrap;
-    line-height: 1rem;
+    background-color: rgba(189, 158, 158, 0.15);  
+    backdrop-filter: blur(5px);
     flex-direction: column;
-    max-width: 25rem;
-    height: 64vh;
-    width: auto;
+    border-radius: 1rem;
 }
 
-.game{
+.upper_div{
+    height: 36vh;
+    margin-bottom: 1.3rem;
+}
+
+.upper_div img{
+    width: 33vh;
+    height: 37vh;
+}
+.mid_div{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+padding-bottom: 1rem;
+}
+
+.lower_div{
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* gap: 1rem; */
+    margin-bottom: 0.2rem;
+    font-size: 12px;
+
+}
+.left_lower{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:1rem;
+}
+.right_lower{
+    right: 100%;
+}
+
+.icon_div{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;  
-}
-.game_contain{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
     gap:0.5rem;
+}
+
+.btn{
+    width: 7rem;
+    padding: 12px;
+    border-radius: 2rem;
+    border: none;
+    background-color:#f68e5f;
     color: white;
 }
 
-.game_contain h3
-{
-    font-size: 1rem;
+
+#heading{
+    font-size: 1.2rem;
+}
+#one{
+    font-weight: bold;
 }
 
-.game_contain #genre{
-    font-size: 0.8rem;
-}
-.game_contain #platform{
-    font-size: 0.8rem;
+.icon_added{
+    fill: yellow;
 }
 
-#lower_div{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:1rem;
-} */
+
+

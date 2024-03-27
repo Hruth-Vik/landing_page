@@ -4,7 +4,7 @@ import "./body_one.css";
 import icons from "./icon.png";
 import frame from "./Frame1.png";
 // import pic1 from "./1st pic.webp";
-import { FaStar } from "react-icons/fa6";
+import { AiFillStar } from "react-icons/ai";
 
 // function Data_entered(Name,Genre,rating,orders)
 // {
@@ -33,29 +33,38 @@ const Section1 = () => {
               <button id="X_Box_btn">X-Box</button>
             </div>
           </div>
-          {/* <div className="box-wrapper">
-            <div className="box">
-              <div className="game">
+          {/* here the container is getting edited */}
+          <div className="sub">
+            <div className="container_class">
+              <div className="upper_div">
                 <img src={frame} alt="" />
               </div>
-              <div className="game_contain">
-                <h3>Call of duty:vanguard</h3>
-                <p id="genre">Activision</p>
-                <p id="platform">PS4,PS5,PC,XBOX One,Xbox Series X</p>
-                <div id="lower_div">
+              <div className="mid_div">
+                <h1 id="heading">
+                  Assasins creed Mirage
+                </h1>
+                <p id="one">
+                  Ubisoft
+                </p>
+                <p id="two">
+                  Ps4,Ps5,Xbox One,Xbox Series X
+                </p>
+              </div>
+              <div className="lower_div">
+                <div className="left_lower">
+                  <div className="icon_div">
+                    <AiFillStar className="icon_added"/>
+                    <p id="rating">4.5</p>
+                  </div>
 
-                </div>
-                  <FaStar style={{ fill: 'yellow' }} />
-                  <p id="rating">4.5</p>
                   <p id="orders">175 orders</p>
                 </div>
-                <button id="btn">Order Now</button>
-                <div id="lower_portion">
-                
+                <div className="right_lower">
+                  <button className="btn">Order Now</button>
+                </div>
               </div>
             </div>
-            <div className="containers"></div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
@@ -63,25 +72,3 @@ const Section1 = () => {
 };
 
 export default Section1;
-
-              {/* <div>
-                <img src={pic1} alt="" />
-              </div>
-              <div>
-                <img src={pic1} alt="" />
-              </div>
-              <div>
-                <img src={pic1} alt="" />
-              </div>
-              <div>
-                <img src={pic1} alt="" />
-              </div>
-              <div>
-                <img src={pic1} alt="" />
-              </div>
-              <div>
-                <img src={pic1} alt="" />
-              </div>
-              <div>
-                <img src={pic1} alt="" />
-              </div> */}
