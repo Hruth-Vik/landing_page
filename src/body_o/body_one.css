@@ -99,10 +99,11 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(189, 158, 158, 0.15);  
+    background-color: rgba(212, 196, 196, 0.15);  
     backdrop-filter: blur(5px);
     flex-direction: column;
     border-radius: 1rem;
+    color: white;
 }
 
 .upper_div{
