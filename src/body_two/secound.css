@@ -31,3 +31,12 @@
     text-align: center;
     color: #ffffff;
 }
+
+.button_active{
+    display: none;
+    border-radius: 1rem;
+    margin:0;
+    border:1px solid black;
+    padding: 1rem;
+
+}
